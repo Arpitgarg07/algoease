@@ -1,0 +1,160 @@
+.navbar {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 50px;
+  padding: 0 5%;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.navbar > h1 {
+  color: white;
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  background: -webkit-linear-gradient(#14ab76 1%, #2daa7a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0rem;
+}
+
+.nav-links > a {
+  color: white;
+}
+
+
+/* Dark mode styles */
+
+.dark-mode .navbar > h1 {
+  color: white;
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  background: -webkit-linear-gradient(#2ca15d 1%, #3ba55e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 1rem;
+}
+
+.dark-mode .nav-links > a {
+  color: black;
+}
+
+.vault-card-ui {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 450px;
+  height: 275px;
+  background-image: linear-gradient(
+    to top,
+    #30994c 0%,
+    #30994c 1%,
+    #30994c 100%
+  );
+  color: white;
+  border-radius: 20px;
+}
+
+.deposit-ui {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 450px;
+  height: 275px;
+  background-image: linear-gradient(
+    to top,
+    #30994c 0%,
+    #30994c 1%,
+    #30994c 100%
+  );
+  color: white;
+  border-radius: 20px;
+}
+
+.deposit-address-chip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 50px;
+  margin-top: 10px;
+  padding: 0 0;
+  font-size: 0.9rem;
+  font-family: monospace;
+}
+
+.done-btn {
+  border: 0.25px solid white;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.vault-balance {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 90%;
+  height: 50px;
+  margin-top: 10px;
+  padding: 0 5%;
+  font-size: 1.5rem;
+}
+
+.vault-address {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 50px;
+  margin-top: 10px;
+  padding: 0 5%;
+  font-size: 1.5rem;
+  font-family: monospace;
+}
+
+.balance-amount {
+  margin-left: 20px;
+}
+
+.brand {
+  font-size: 1rem;
+}
+
+.deposit-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  cursor: pointer;
+  border: 0.5px solid #757373;
+}

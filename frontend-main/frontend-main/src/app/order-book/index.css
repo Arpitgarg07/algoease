@@ -1,0 +1,32 @@
+/* order book css */
+.order-book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  background-color: #000;
+  padding-top: 20vh;
+}
+
+.order-book-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 80vh;
+  width: 80vw;
+}
+
+h1 {
+  color: white;
+  font-size: 2rem !important;
+  font-weight: 700;
+  text-transform: capitalize;
+  background: -webkit-linear-gradient(#117c46 1%, #1d9350 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+  background-clip: text; 
+  
+}
