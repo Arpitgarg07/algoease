@@ -1,2 +1,2 @@
 # backend
-backend repository for algoCombo
+backend repository for AlgoEase
