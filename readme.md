@@ -24,3 +24,5 @@ Because of their inexperience, novices are more likely to suffer losses. AlgoEas
 
 ## Technologies we used
 Mongodb, React.js, Node.js, Express.js, Tailwind, CSS, Git, GitHub, Python, Typescript, API integration, HTML, Jasvascript
+
+![logo](https://github.com/Arpitgarg07/algoease/blob/master/website)
